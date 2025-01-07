@@ -1,10 +1,5 @@
 name: Provision Azure Batch
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
 
 jobs:
   provision-batch:
